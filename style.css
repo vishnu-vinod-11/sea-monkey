@@ -1,0 +1,130 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: sans-serif; 
+}
+
+
+.section-1 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url(https://aswathi-48.github.io/SeaMonkey/image/Rectangle%203.gif) center / cover no-repeat;
+}
+
+
+.main-sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.logo {
+  height: 40px; 
+  height: 97px;
+  
+}
+
+.nav-sections ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-sections a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.nav-sections a:hover {
+  color: yellow;
+}
+
+.nav-sections a:focus-visible {
+  outline: 2px solid yellow;
+}
+
+.nav-sections a.contact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 159px;
+  min-height: 42px;
+  background-color: #006FF9;
+  border-radius: 5px;
+}
+
+.nav-sections a.contact:hover {
+  background-color: rgb(208, 208, 101);
+  color: white;
+}
+
+
+.banner-wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-1 {
+  color:aliceblue;
+  font-size: 96px;
+  line-height: 1.09;
+  font-weight: 400;
+  
+}
+
+.bannertext-p {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.knowmore {
+  margin-top: 32px;
+  padding: 10px 24px;
+  background-color: #006FF9;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px; 
+  font-weight: 600;
+}
+
+.hero-art {
+  width: 100%;
+  display: block;
+}
+.contact {
+
+  border: none;
+    background-color: #006FF9;
+    outline: none;
+    width: 159px ;
+    color: white;
+    min-height: 42px;
+    border-radius: 5px;
+}
+
+.contact:hover {
+  background-color: rgb(208, 208, 101) ;
+}
+/* .section-2 {
+  background: url(https://aswathi-48.github.io/SeaMonkey/image/CONTOUR%20LINES.svg);
+} */
+
